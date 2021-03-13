@@ -1,11 +1,34 @@
-*** UserLand Frontier(tm)  --  Version 10.1 Open Source Release ***
+*** UserLand Frontier -- Version 10.1a12 Open Source Release ***
 
 Last updated March 13, 2021 by Rogers Cadenhead
+
+Installation
+============
+
+This project is currently being developed on Microsoft Visual Studio 2013,
+although other build instructions have been included.
+
+To build the application, open the build subfolder build_VC2013 and open
+the Frontier.sln solution file in Visual Studio.
+
+In the Solution Explorer, right-click the top line "Solution 'Frontier'
+and choose Build Solution. The program will be built in the subfolder
+build_VC2013/Debug.
+
+Before it can be run, you must have a copy of Frontier's database files.
+
+If you don't have these files, you can get them from this site:
+
+    http://frontier.userland.com/frontier901b1
+
+Install that site's version of Frontier in its own folder and copy all of
+its files and subfolders except for Frontier.exe into build_VC2013.Debug.
+
+When that's done, run Frontier.exe in build_VC2013/Debug.
 
 Since the original v10.0a1 Open Source release of Frontier, additional work
 has been done to allow the building of Frontier using other development
 environments. The following sections describe these environments.
-
 
 A. Apple Xcode Tools for Mac OS X
 =================================
@@ -85,23 +108,7 @@ to start with the Debug build configuration.
 
 3. Build.
 
-
-E. Microsoft Visual Studio 2013
-====================================
-
-Build directory: build_VC2013
-
-Getting Started:
-----------------
-
-1. Open the Frontier.sln solution file in Visual Studio.
-
-2. Select the Configuration Manager from the Build menu and switch
-the Active Solution Configuration to Debug. Click the Close button.
-
-3. Select Build Solution from the Build menu.
-
-F. Metrowerks CodeWarrior Pro for Mac or Windows
+E. Metrowerks CodeWarrior Pro for Mac or Windows
 ================================================
    
 Build directory : build_CWPro8
@@ -146,8 +153,7 @@ CodeWarrior to report about 240 compiler warnings, mostly about
 redeclared identifiers in Microsoft header files, some missing function
 prototypes, and some unused variables. You can ignore these warnings.
 
-
-G. GNU Tools (initially for Mac OS X only)
+F. GNU Tools (initially for Mac OS X only)
 ==========================================
    
 Build directory : build_GNU
@@ -199,7 +205,7 @@ Report problems and ask questions on the Frontier Kernel mailing list:
 
 This source code download does not come with a Frontier installation
 for testing the applications compiled from the code. For this purpose,
-minimal installations for each platform are available for donwload
-from the Frontier Kernel SourceForge project website at:
+minimal installations for each platform are available for download
+from the UserLand Software archives at:
 
-	https://github.com/rcaden/Frontier
+	http://frontier.userland.com/frontier901b1
