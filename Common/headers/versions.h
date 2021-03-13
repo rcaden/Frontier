@@ -7,7 +7,9 @@
     object database, system-level and Internet scripting environment,
     including source code editing and debugging.
 
-    Copyright (C) 1992-2004 UserLand Software, Inc.
+	Copyright (C) 2021 Rogers Cadenhead
+	Copyright (C) 2014 Frontier Kernel Project
+    Copyright (C) 2004 UserLand Software, Inc.
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -35,8 +37,13 @@
 	2006-02-07 aradke: major overhaul
 		about.c and shell.r don't contain any target-specific version info anymore.
 		there is some target-specific info in the version resource in winland.rc left,
-		but nothing that needs to be changed on a regular basic.
+		but nothing that needs to be changed on a regular basis.
 		to do: convert pascal to c strings? (see about.c)
+
+	2021-03-13 rcade: version and copyright update
+		Updated Frontier version and copyright details to indicate that the defunct
+		Frontier Kernel Project is no longer the primary author of new updates and
+		link to the new GitHub repo.
 */ 
 
 

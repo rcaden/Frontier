@@ -8,10 +8,10 @@ Installation
 This project is currently being developed on Microsoft Visual Studio 2013,
 although other build instructions have been included.
 
-To build the application, open the build subfolder build_VC2013 and open
-the Frontier.sln solution file in Visual Studio.
+To build the application, download all of the project's files. In Visual
+Studio, open the Frontier.sln solution file in the subfolder build_VC2013.
 
-In the Solution Explorer, right-click the top line "Solution 'Frontier'
+In the Solution Explorer, right-click the top line "Solution 'Frontier'"
 and choose Build Solution. The program will be built in the subfolder
 build_VC2013/Debug.
 
@@ -25,6 +25,9 @@ Install that site's version of Frontier in its own folder and copy all of
 its files and subfolders except for Frontier.exe into build_VC2013.Debug.
 
 When that's done, run Frontier.exe in build_VC2013/Debug.
+
+Once you can run Frontier you can uninstall the version you got from
+frontier.userland.com.
 
 Since the original v10.0a1 Open Source release of Frontier, additional work
 has been done to allow the building of Frontier using other development
