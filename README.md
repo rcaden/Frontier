@@ -2,7 +2,7 @@
 
 Version 10.1a12 
 
-Last updated March 14, 2021 by [https://workbench.cadenhead.org/](Rogers Cadenhead).
+Last updated March 14, 2021 by [Rogers Cadenhead](https://workbench.cadenhead.org/).
 
 ## Installation Instructions
 
@@ -135,4 +135,4 @@ Support for building the Windows version using Cygwin/MinGW or other GNU based d
 
 ## Bugs and Feature Requests
 
-Report problems, ask questions and make feature requests on the [https://github.com/rcaden/Frontier/issues](Issues Page).
+Report problems, ask questions and make feature requests on the [Issues Page](https://github.com/rcaden/Frontier/issues).
