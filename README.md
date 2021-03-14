@@ -2,7 +2,7 @@
 
 Version 10.1a12 
 
-Last updated March 13, 2021 by Rogers Cadenhead
+Last updated March 14, 2021 by [https://workbench.cadenhead.org/](Rogers Cadenhead).
 
 ## Installation Instructions
 
@@ -14,9 +14,7 @@ In the Solution Explorer, right-click the top line "Solution 'Frontier'" and cho
 
 Before it can be run, you must have a copy of Frontier's database files, which are not included at this time.
 
-If you don't have these files, you can get them from the UserLand Software archives:
-
-    [frontier.userland.com](http://frontier.userland.com/frontier901b1)
+If you don't have these files, you can get them from the UserLand Software archives at [frontier.userland.com](http://frontier.userland.com/frontier901b1).
 
 Install that site's version of Frontier in its own folder and copy all of its files and subfolders except for Frontier.exe into build_VC2013.Debug.
 
@@ -135,8 +133,6 @@ When you build, expect the GNU tools to report some compiler warnings. You can i
 
 Support for building the Windows version using Cygwin/MinGW or other GNU based development environments on Windows systems, and support for building the Windows version using WINE on non-Windows systems, may be added in the future.
 
-## Reporting Problems
+## Bugs and Feature Requests
 
-Report problems and ask questions on the Issues page:
-
-	[https://github.com/rcaden/Frontier/issues]
+Report problems, ask questions and make feature requests on the [https://github.com/rcaden/Frontier/issues](Issues Page).
