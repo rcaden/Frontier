@@ -45,6 +45,7 @@ Created 7/20/97 Robert Bierman
 
 #include "frontier.h"
 #include "standard.h"
+#include "winregistry.h"
 
 
 #ifdef NeverDefine_For_Reference
