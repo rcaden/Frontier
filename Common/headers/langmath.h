@@ -5,7 +5,9 @@
 
     Created by Seth Dillingham on 12/29/04.
     
-    Copyright (C) 2004 Macrobyte Resources.
+    Copyright (C) 2021 Rogers Cadenhead
+	Copyright (C) 2004-2014 Frontier Kernel Project
+	Copyright (C) 1992-2004 UserLand Software, Inc.
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
